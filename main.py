@@ -46,6 +46,6 @@ image_path = sys.argv[1]
 # image_path = "images/profile-1.jpg"
 
 # user can input the hex color code #1D76DB (blue), #DB231D (red), #FFFF00 (yellow)
-color_name = str(input("Enter the color name: "))
+color_name = str(input("Enter the color you want: "))
 
 bg_changer(image_path, color_name)
